@@ -1,0 +1,79 @@
+.banner {
+    background-image: url(homepageimage.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    width: 90%;
+    margin: auto;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 250px;
+    cursor: pointer;
+    margin-left: -20%;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+    position: relative;
+    margin-bottom: 120px;
+    color: black;
+}
+
+.navbar ul li a{
+    width: 110px;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(124, 123, 123);
+    background: #D9D9D9;
+    color: black;
+ }
+
+ .content h1{
+    color: #000;
+    text-align: center; 
+    font-family: 'Castoro Titling', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 500px;
+    margin-top: 120px;
+}
+
+.content p {
+    color: #000;
+    text-align: center; 
+    font-family: 'Castoro Titling', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 220px;
+}
+
+.who {
+    align-items: center;
+    justify-content: center;
+    margin-left: 35%;
+}
+
+.image{
+    height: 100px;
+    width: 100px;
+    margin-top: 10%;
+}
